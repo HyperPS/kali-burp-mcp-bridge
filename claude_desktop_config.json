@@ -1,14 +1,7 @@
 {
   "mcpServers": {
-    "x64dbg": {
-      "command": "python",
-      "args": [
-        "C:\\Users\\%USERNAME%\\x64dbg_mcp_claude.py"
-      ],
-      "env": {
-        "X64DBG_URL": "http://127.0.0.1:8888/",
-        "MCP_LOG_FILE": "C:\\Users\\%USERNAME%\\x64dbg_mcp.log"
-      }
+    "Kali-Tools": {
+      "url": "https://hostname.ms/sse"
     }
   }
 }
