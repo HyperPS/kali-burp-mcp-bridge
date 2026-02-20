@@ -22,7 +22,8 @@ Run `nmap`, `sqlmap`, `metasploit`, `hydra`, `nuclei` and 60+ more tools — all
 ---
 
 > ⚠️ **Legal Disclaimer:** This tool is intended for **authorized penetration testing and security research only**. Always obtain explicit written permission before testing any system you do not own. Misuse of this tool is illegal and unethical. The authors accept no liability for unauthorized use.
-
+#### This project is not intended to be exposed publicly without authentication. The kali-burp-mcp-bridge server is designed to run locally or behind a trusted boundary (e.g., internal lab environment, VPN, or secured reverse proxy) and is expected to be protected by an authentication token or equivalent access control mechanism at deployment time.
+#### The functions highlighted (Metasploit integration, CLI wrappers, file-based tooling, etc.) are intentionally designed for controlled offensive security environments where the operator is already trusted and authorized. This bridge acts as a thin execution layer between MCP and local security tooling — not as a hardened multi-tenant API service.
 ---
 
 ## 📌 What Is This?
